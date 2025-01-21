@@ -51,6 +51,16 @@ For legacy reasons, all JSON response bodies currently have <, >, and & replaced
 - Retrofit
 - Flows + Coroutines
 
-**ScreenPrint**
 
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/06e7547b-c5ff-4fe4-9a08-7642030ba6ae" />
+**ScreenPrint** 													
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/06e7547b-c5ff-4fe4-9a08-7642030ba6ae" />       
+
+
+
+
+**Updated gif**
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/780a208f-2cf1-44c9-9160-373e37de9965" /> 
+
+
