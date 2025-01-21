@@ -40,3 +40,17 @@ Example: https://www.reddit.com/r/travel/comments/9af10v/just_visited_mostar_bos
 [IMPORTANT] Response Body Encoding
 For legacy reasons, all JSON response bodies currently have <, >, and & replaced with &lt;, &gt;, and &amp;, respectively. If you wish to opt out of this behaviour, add a raw_json=1 parameter to your request.
 
+### Solution
+
+**Tech Stack**
+- Kotlin
+- Jetpack Compose
+- MVVM and clean architecture.
+- Dagger/Hilt
+- Coil
+- Retrofit
+- Flows + Coroutines
+
+**ScreenPrint**
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/06e7547b-c5ff-4fe4-9a08-7642030ba6ae" />
