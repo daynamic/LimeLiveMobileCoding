@@ -32,6 +32,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import coil.compose.rememberImagePainter
 import com.akshat.limeandroidchallenge.components.LimeAndroidAppBar
+import com.akshat.limeandroidchallenge.components.PostItemShimmer
 import com.akshat.limeandroidchallenge.data.Resource
 import com.akshat.limeandroidchallenge.model.PostItems
 
@@ -50,7 +51,11 @@ fun PostsScreen(
 
                 when (posts) {
                     is Resource.Loading -> {
-                        Text(text = "Loading...")
+                        LazyColumn {
+                            items(10) {
+                                PostItemShimmer()
+                            }
+                        }
                     }
 
                     is Resource.Success -> {
